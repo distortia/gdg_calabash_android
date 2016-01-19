@@ -11,7 +11,7 @@ Before do |scenario|
 end
 
 After do
-  stop_app
+  # stop_app
 end
 
 module AppLifeCycle
