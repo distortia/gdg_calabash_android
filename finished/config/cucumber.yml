@@ -1,0 +1,9 @@
+# config/cucumber.yml
+##YAML Template
+---
+# Default profile
+defaults: RESET_BETWEEN_SCENARIOS=1 CAL_DEVICE_ID='emulator-5554' CAL_APP='app-debug.apk'
+format_html: --format html --out report.html
+# Platform
+android: -p defaults PLATFORM=android -r features -p format_html
+ios: PLATFORM=ios -r features

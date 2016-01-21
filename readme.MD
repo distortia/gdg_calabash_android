@@ -7,8 +7,9 @@
 * `bundle install`
 
 #### Please make sure you have the following as well:
-* `$ANDROID_HOME` set
-* Android .apk file
+* `ANDROID_HOME` and `JAVA_HOME` set as environment variables
+* Android SDK installed
+* Android Emulator - Android Studio can help with this
 * Ruby >= 2.0.0
 
 #### To run the android app:
