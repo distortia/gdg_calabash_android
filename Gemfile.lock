@@ -34,7 +34,7 @@ GEM
     edn (1.1.0)
     escape (0.0.4)
     event-bus (0.1.0)
-    geocoder (1.2.14)
+    geocoder (1.7.5)
     gherkin (3.2.0)
     httpclient (2.7.1)
     json (1.8.3)
